@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Form </title>
+
+</head>
+<body>
+    <h1 class="header">
+        College Registration Form
+    </h1>
+    <form style="align-items: center; padding: 40px; border: 2px solid black; border-radius: 10px; font-size: 25px;>
+        <div style="margin-top: 20px;">
+            <label style="font-size: medium;">
+               <span> 
+                <b> First Name:</b> 
+                <input class="A1" type="text" placeholder="Enter first name">
+                <b>Middle Name:</b>
+                <input class="A1" type="text" placeholder="Enter middle name">
+                <b>Last Name:</b>
+                <input class=" A1" type="text" placeholder="Enter last name">
+             </span>
+            </label> 
+        </div>
+        <div style="margin-top: 20px;">
+            <label style="font-size: medium;">
+                <b>Gender:</b>
+            </label>
+            <select>
+                <option> Male</option>
+                <option> Female</option>
+                <option> Others</option>
+            </select>
+            <div style="margin-top: 20px;">
+                <label style="font-size: medium;">
+                    <b>Address:</b>
+                </label>
+                <textarea style="vertical-align: middle;" placeholder="Enter address"></textarea>
+            </div>
+        </div>
+        <div style="margin-top: 20px;">
+            <label style="font-size: medium;">
+                <b>Phone:</b>
+            </label>
+            <input type="tel" placeholder="Enter phone">
+
+            <label style="font-size: medium;">
+                <b>Email:</b>
+            </label>
+            <input type="email" placeholder="Enter email address">
+        </div>
+        <div style="margin-top: 20px;">
+            <label style="font-size: medium;">
+                <b><label for="myfile">Class 10th marksheet:</label>
+                    <input type="file" id="myfile" name="myfile">
+            </label>
+            <label style="font-size: medium;">
+                <b><label for="myfile">Class 12th marksheet:</label>
+                    <input type="file" id="myfile" name="myfile">
+            </label>
+        </div>
+        <div style="margin-top: 20px;">
+            <label style="font-size: medium;">
+                <b>TFW eligible:</b>
+                <input type="checkbox" id="tfw" name="vehicle1" value="Yes">
+            </label>
+        </div>
+        <div style="margin-top: 20px;">
+            <label style="font-size: medium;">
+                <b>12th aggregate:</b>
+            </label>
+            <input type="number" max="100" min="0" style="width: 40px;">%
+        </div>
+        <div style="margin-top: 20px;">
+            <label style="font-size: medium;">
+                <b>Password:</b>
+            </label> 
+            <input type="password" placeholder="Enter password">
+        </div>
+        <div style="text-align: center; margin-top: 70px; font-size: 35px;">
+            <label style="font-size: medium;">
+                <input type="checkbox" id="tfw" name="new" value="Yes">
+                <b>Accept <a href="./terms.html">Terms and Conditions</a></b>
+            </label>
+        </div>
+        <div style="text-align: center; ">
+            <label style="font-size: medium;">
+                <input type="checkbox" id="tfw" name="new2" value="Yes">
+                <b>Subscribe to newsletter</b>
+            </label>
+        </div>
+
+        <div style="text-align: center; margin-top: 10px;">
+            <span>
+                <input type="submit">
+            </span>
+            <span>
+                <input type="reset">
+            </span>
+        </div>
+    </form>
+</body>
+</html>

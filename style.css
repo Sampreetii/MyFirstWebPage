@@ -1,0 +1,19 @@
+#mediumtext {
+    font-size: medium;
+    color:aliceblue;
+}
+.header {
+    background-color: brown;
+    text-align: center;
+    color: beige;
+    padding: 10px;
+   
+  }
+  
+  .A1{
+    margin-right: 50px;
+  }
+  *{
+    background-color: beige;
+    background-size: cover; background-repeat: no-repeat; background-position-y: 60px;
+  }
