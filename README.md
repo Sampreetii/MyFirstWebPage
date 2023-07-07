@@ -1,2 +1,2 @@
 # MyFirstWebPage
-My very first page
+My very first web page
